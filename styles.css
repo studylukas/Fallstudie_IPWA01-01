@@ -1,0 +1,22 @@
+#company_name {
+    color:rgb(44, 63, 38)
+}
+
+.footer{
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.footer a {
+    color: black;
+    
+}
+.footer nav ul {
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
