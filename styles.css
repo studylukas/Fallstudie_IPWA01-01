@@ -13,7 +13,7 @@
 
 
 body {
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
 }
 
 footer #copyright {
@@ -26,4 +26,12 @@ footer .nav-link {
 
 footer .nav-link:hover {
     color: rgb(14, 46, 17) !important;
+}
+
+.zitate {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(14, 46, 17);
 }
