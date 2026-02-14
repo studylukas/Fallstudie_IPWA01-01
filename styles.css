@@ -2,21 +2,28 @@
     color:rgb(44, 63, 38)
 }
 
-.footer{
-    list-style-type: none;
-    display: inline-block;
-    align-items: center;
 
+#navigation .nav-link {
+    color: rgb(44, 63, 38);
 }
 
-.footer a {
-    color: black;
-    
+#navigation .nav-link:hover {
+    color: rgb(14, 46, 17);
 }
-.footer nav ul {
-    text-align: center;
-}
+
 
 body {
     background-color: darkgray;
+}
+
+footer #copyright {
+     color: rgb(44, 63, 38) !important;
+}
+
+footer .nav-link {
+    color: rgb(44, 63, 38) !important;
+}
+
+footer .nav-link:hover {
+    color: rgb(14, 46, 17) !important;
 }
