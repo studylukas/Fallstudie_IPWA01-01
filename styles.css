@@ -35,3 +35,11 @@ footer .nav-link:hover {
     font-weight: 700;
     color: rgb(14, 46, 17);
 }
+
+.Vorstellung {
+    font-size: 1.0rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    color: rgb(14, 46, 17);
+}
