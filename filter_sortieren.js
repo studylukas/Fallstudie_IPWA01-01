@@ -2,7 +2,7 @@ const table = document.getElementById("companyTable");
 const tbody = table.querySelector("tbody");
 const rows = Array.from(tbody.querySelectorAll("tr"));
 
-// ---------------- SPALTEN-FILTER ----------------
+// Spaltenfilter
 document.querySelectorAll(".column-filter").forEach(input => {
     input.addEventListener("input", () => {
         const filters = {};
@@ -32,7 +32,7 @@ document.querySelectorAll(".column-filter").forEach(input => {
     });
 });
 
-
+// Spalten sortieren
 let sortColumn = null;
 let sortDirection = "asc";
 
